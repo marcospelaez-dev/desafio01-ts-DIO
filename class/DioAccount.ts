@@ -21,7 +21,7 @@ export abstract class DioAccount {
 
   deposit = (): void => {
     if(this.validateStatus()){
-      console.log('Voce depositou', this.valorDeposito)
+      console.log('Voce depositou')
     }
   }
 
